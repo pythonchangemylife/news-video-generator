@@ -1,0 +1,30 @@
+canvas:
+  width: 1920
+  height: 1080
+  background: '#2d1f16'
+colors:
+  title: '#FFFFFF'
+  timestamp: '#B8860B'
+  domain_tag: '#FFD700'
+  body: '#FFFFFF'
+  subtitle: '#666666'
+  separator: '#444444'
+  heatmap_bg: '#000000'
+fonts:
+  regular: /System/Library/AssetsV2/com_apple_MobileAsset_Font8/86ba2c91f017a3749571a82f2c6d890ac7ffb2fb.asset/AssetData/PingFang.ttc
+  bold: /System/Library/AssetsV2/com_apple_MobileAsset_Font8/86ba2c91f017a3749571a82f2c6d890ac7ffb2fb.asset/AssetData/PingFang.ttc
+voice:
+  speed: 1.5
+  bgm_volume: 0.3
+  bgm_dir: assets/bgm
+ab_test:
+  exploration_rate: 0.1
+  main_template: '{YYYY年MM月DD日}新闻联播摘要：{keyword}'
+  explore_templates:
+  - 今天新闻联播回放（{YYYY年MM月DD日}）：{keyword}
+  - 昨晚新闻联播重点：{keyword}（{YYYY年MM月DD日}完整版）
+cctv:
+  news_url: https://tv.cctv.com/lm/xwlb/
+logging:
+  level: INFO
+  file: logs/app.log

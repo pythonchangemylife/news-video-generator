@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Data & Outputs
+output/
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+logs/*.log
+
+# Config with secrets
+.env
+.env.*
+
+# DB
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
